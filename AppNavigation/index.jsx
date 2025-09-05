@@ -24,7 +24,6 @@ const Index = () => {
                 <Stack.Screen name="Profile" component={Profile} />
                 <Stack.Screen name="Dashboard" component={Dashboard} />
                 <Stack.Screen name="Signup" component={Signup} />
-
             </Stack.Navigator>
         </NavigationContainer >
     )
