@@ -62,12 +62,14 @@ const Home = () => {
                 })
             }
             </ScrollView>
-            <ScrollView>
+            <ScrollView style={{marginBottom:60}}>
                 <Card />
                 <Card />
                 <Card />
+                  <Card />  <Card />
                 {/* <Button title="Go to Dashboard" onPress={onPressDashboard}/> */}
                 <Button title="Go to Profile" onPress={onPressHandle} />
+                <Card />
             </ScrollView>
         </View>
     )
