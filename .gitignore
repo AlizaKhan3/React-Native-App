@@ -39,6 +39,7 @@ local.properties
 #
 node_modules/
 npm-debug.log
+android/app/google-services.json
 yarn-error.log
 
 # fastlane
